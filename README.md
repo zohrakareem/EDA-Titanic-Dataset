@@ -1,57 +1,62 @@
-Titanic - Kaggle Survival Prediction
+# 🚢 Titanic Dataset – Exploratory Data Analysis (EDA)
 
-This project is part of the Kaggle "Titanic: Machine Learning from Disaster" competition.
-It predicts passenger survival on the Titanic based on attributes like age, gender, passenger class, and more.
+## 📝 Overview
+This project performs **Exploratory Data Analysis (EDA)** on the famous **Titanic dataset**.  
+The main goal is to analyze passenger data, identify survival patterns, and understand which factors influenced survival rates during the disaster.
 
-📂 Files in this repository
+---
 
-titanic.ipynb – Jupyter Notebook with data analysis, visualization, and model training.
+## 📊 Dataset Description
+The dataset contains details of Titanic passengers, including:
+- **Age**
+- **Gender**
+- **Passenger Class (Pclass)**
+- **Fare**
+- **Embarkation Port (Embarked)**
+- **Survival Status (0 = Did not survive, 1 = Survived)**
 
-submission.csv – Prediction file submitted to Kaggle.
+---
 
-README.md – Project description.
+## 🔎 Key Steps in EDA
+- 📂 **Data Importing** – Loaded dataset in Python (pandas)  
+- 🧹 **Data Cleaning** – Handled missing values in Age (median), Embarked (mode), and Fare  
+- 📈 **Feature Exploration** – Analyzed survival by:
+  - Gender
+  - Passenger Class
+  - Age Groups
+  - Embarkation Port  
+- 📊 **Data Visualization** – Used bar charts, histograms, and heatmaps to reveal survival trends
+----
 
-📊 Features analyzed
+## 📉 Insights & Findings
+- **Gender**: Females had a significantly higher survival rate compared to males.  
+- **Passenger Class**: First-class passengers had a better chance of survival than lower classes.  
+- **Age**: Children had a higher survival probability than adults.  
+- **Embarkation Port**: Passengers who embarked from certain ports showed different survival patterns.  
 
-Embarked distribution
+---
 
-Age distribution
+## 🛠️ Tools & Libraries
+- **Python** (Pandas, NumPy)  
+- **Matplotlib & Seaborn** (for visualization)  
+- **Jupyter Notebook / Google Colab**  
 
-Fare distribution
+---
+# 💼 Internship Submission – Elevvo (Data Analytics)
 
-Survival rate by gender
+## 📝 Overview  
+This project is part of the **Elevvo Internship Program (Data Analytics track)**.  
+The purpose is to apply **data analysis, visualization, and business insight generation** on real datasets.
 
-Survival rate by passenger class
+### 🔹 Tasks Completed  
+- Performed **data cleaning and preparation**  
+- Conducted **EDA on Titanic dataset**  
+- Identified **patterns and insights** using charts and tables  
+- Documented findings in a **clear and structured format**
 
-Correlation heatmap
-
-🛠 Tools & Libraries
-
-Python 3
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
-
-🚀 Steps followed
-
-Loaded and explored the Titanic dataset.
-
-Cleaned missing data and converted data types.
-
-Performed exploratory data analysis (EDA).
-
-Built a classification model to predict survival.
-
-Created and uploaded the Kaggle submission file.
-
-📌 Kaggle Competition Link
-https://www.kaggle.com/code/zohrakareem/notebook5808fa961d?scriptVersionId=256197603
-
-Titanic: Machine Learning from Disaster
+### 🔹 Skills Applied  
+- Data Cleaning & Preparation  
+- Exploratory Data Analysis (EDA)  
+- Data Visualization (Matplotlib & Seaborn)  
+- Business Insight Generation  .
+ ----
